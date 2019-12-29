@@ -17,3 +17,41 @@ public class MyClass {
       System.out.println("Hello World");
     }
   }
+
+
+
+//   This example uses a single-line comment at the end of a line of code:
+
+// Example
+// System.out.println("Hello World"); // This is a comment
+
+
+public class MyClass {
+    public static void main(String[] args) {
+      System.out.println("Hello World"); // This is a comment
+    }
+  }
+
+//   Java Multi-line Comments
+// Multi-line comments start with /* and ends with */.
+
+// Any text between /* and */ will be ignored by Java.
+
+// This example uses a multi-line comment (a comment block) to explain the code:
+
+// Example
+// /* The code below will print the words Hello World
+// to the screen, and it is amazing */
+// System.out.println("Hello World");
+
+// Single or multi-line comments?
+// It is up to you which you want to use. Normally, we use // for short comments, and /* */ for longer.
+
+
+public class MyClass {
+    public static void main(String[] args) {
+      /* The code below will print the words Hello World
+      to the screen, and it is amazing */
+      System.out.println("Hello World");
+    }
+  }
