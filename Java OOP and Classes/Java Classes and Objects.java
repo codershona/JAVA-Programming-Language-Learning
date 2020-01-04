@@ -34,3 +34,72 @@
 // }
 
 
+public class MyClass {
+  int x = 80;
+
+  public static void main(String[] args) {
+    MyClass myObj = new MyClass();
+    System.out.println(myObj.x);
+  }
+}
+
+
+// Multiple Objects
+// You can create multiple objects of one class:
+
+// Example
+// Create two objects of MyClass:
+
+// public class MyClass {
+//   int x = 5;
+
+//   public static void main(String[] args) {
+//     MyClass myObj1 = new MyClass();  // Object 1
+//     MyClass myObj2 = new MyClass();  // Object 2
+//     System.out.println(myObj1.x);
+//     System.out.println(myObj2.x);
+//   }
+// }
+
+
+public class MyClass {
+  int x = 60;
+
+  public static void main(String[] args) {
+    MyClass myObj1 = new MyClass();
+    MyClass myObj2 = new MyClass();
+    System.out.println(myObj1.x);
+    System.out.println(myObj2.x);
+  }
+}
+
+
+// Using Multiple Classes
+// You can also create an object of a class and access it in another class. This is often used for better organization of classes (one class has all the attributes and methods, while the other class holds the main() method (code to be executed)).
+
+// Remember that the name of the java file should match the class name. In this example, we have created two files in the same directory/folder:
+
+// MyClass.java
+// OtherClass.java
+// MyClass.java
+// public class MyClass {
+//   int x = 5;
+// }
+// OtherClass.java
+// class OtherClass {
+//   public static void main(String[] args) {
+//     MyClass myObj = new MyClass();
+//     System.out.println(myObj.x);
+//   }
+// }
+// When both files have been compiled:
+
+// C:\Users\Your Name>javac MyClass.java
+// C:\Users\Your Name>javac OtherClass.java
+// Run the OtherClass.java file:
+
+// C:\Users\Your Name>java OtherClass
+// And the output will be:
+
+// 5
+
