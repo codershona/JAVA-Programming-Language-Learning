@@ -1,7 +1,8 @@
 ##           Java Reserved Keywords:
 
 
-     ```Java has a set of keywords that are reserved words that cannot be used as variables, methods, classes, or any other identifiers:
+     ```
+     Java has a set of keywords that are reserved words that cannot be used as variables, methods, classes, or any other identifiers:
      ```
 
  ``` 
@@ -62,6 +63,7 @@ volatile	 |Indicates that an attribute is not cached thread-locally, and        
 while	     |Creates a while loop
  ```
 
-``` Note: true, false, and null are not keywords, but they are literals and reserved words that cannot be used as identifiers. 
+``` 
+Note: true, false, and null are not keywords, but they are literals and reserved words that cannot be used as identifiers. 
  ```
 
