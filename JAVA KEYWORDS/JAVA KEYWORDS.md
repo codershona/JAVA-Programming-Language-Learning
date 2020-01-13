@@ -4,7 +4,8 @@
      ```Java has a set of keywords that are reserved words that cannot be used as variables, methods, classes, or any other identifiers:
      ```
 
- ``` Keyword	  |Description
+ ``` 
+ Keyword	  |Description
 abstract      |A non-access modifier. Used for classes and methods: An                    abstract class cannot be used to create objects (to access it,              it must be inherited from another class). An abstract method                can only be used in an abstract class, and it does not have a               body. The body is provided by the subclass (inherited from)
 assert	      | For debugging
 boolean	      |A data type that can only store true and false values
@@ -59,10 +60,8 @@ var	         |Declares a variable. New in Java 10
 void	     |Specifies that a method should not have a return value
 volatile	 |Indicates that an attribute is not cached thread-locally, and                 is always read from the "main memory"
 while	     |Creates a while loop
-                                      ```
+ ```
 
-
-
- ``` Note: true, false, and null are not keywords, but they are literals and reserved words that cannot be used as identifiers. 
+``` Note: true, false, and null are not keywords, but they are literals and reserved words that cannot be used as identifiers. 
  ```
 
